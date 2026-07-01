@@ -2,37 +2,44 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Реєстрація / Вхід</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Створи свій акаунт</title>
 </head>
 <body>
 
-    <p>01</p>
-    <hr>
+    <div>
+        <span>01 ЕТАП</span>
+    </div>
 
-    <h1>РЕЄСТРАЦІЯ / ВХІД</h1>
-    <p>Створіть новий акаунт або увійдіть у свій</p>
+    <h1>СТВОРИ <br> СВІЙ АКАУНТ</h1>
+    <p>Почни свій шлях до найкращої версії себе</p>
 
     <form>
-        <button type="button">
-            &#9993; ЗАРЕЄСТРУВАТИСЯ
-        </button>
-        
-        <br><br>
+        <div>
+            <label for="username">НІКНЕЙМ</label>
+            <span>👤</span>
+            <input type="text" id="username" name="username" placeholder="Введи свій нікнейм" required>
+        </div>
 
-        <button type="button">
-            &#128100; УВІЙТИ
+        <div>
+            <label for="password">ПАРОЛЬ</label>
+            <span>🔒</span>
+            <input type="password" id="password" name="password" placeholder="Введи пароль" required>
+            <button type="button" aria-label="Показати пароль">👁️</button>
+        </div>
+
+        <div>
+            <label for="email">EMAIL</label>
+            <span>✉️</span>
+            <input type="email" id="email" name="email" placeholder="Введи свою пошту" required>
+        </div>
+
+        <button type="submit">
+            ПРОДОВЖИТИ <span>→</span>
         </button>
     </form>
 
-    <p>або</p>
-
-    <ul>
-        <li><button type="button">Google</button></li>
-        <li><button type="button">Facebook</button></li>
-        <li><button type="button">Apple</button></li>
-    </ul>
-
-    <button type="button">&#10142;</button>
+  
 
 </body>
 </html>
